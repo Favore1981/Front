@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git</title>
+</head>
+
+<body>
+    <div>
+        <p>Посилання на галлерею</p>
+        <a href="./gallery.html">gallery</a>
+    </div>
+    <div>
+        <p><b>Команди, які були використані під час виконання домашнього завдання</b></p>
+        <p>для підключення репозиторію та перший коміт на гілку main</p>
+        <ul>
+            <li>git init</li>
+            <li>git add .</li>
+            <li>git commit -m "name commit"</li>
+            <li>git branch -m main</li>
+            <li>git remote add origin https://github.com/Favore1981/Front.git</li>
+            <li>git push -u origin main</li>
+        </ul>
+        <p>використовується команда git status постійно</p>
+        <p>для видалення файлів з гілки main використував ці команди</p>
+        <ul>
+            <li>git rm --cached -r назва_файлу</li>
+            <li>git commit -m "remove назва from repository"</li>
+            <li>git push origin main</li>
+        </ul>
+        <p>спочатку моя головна гілка називалась master тому я змінив її назву командою git branch -m main</p>
+        <p>далі створив від гілки main гілку за допомогою команди git checkout -b lesson12 і працював з цією
+            гілкою в терміналі. Закомітив проект до відгалуженої гілки, у гитхаб зробив pull request та зробив merge на
+            гілку main</p>
+        <p> команди із останнього уроку git pull та git merge ще не тестував</p>
+    </div>
+</body>
+
+</html>
